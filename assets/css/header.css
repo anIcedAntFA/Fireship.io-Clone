@@ -1,0 +1,140 @@
+/*==== Header ====*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 76.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--header-bg);
+    /* border-bottom: 1px solid var(--gray0); */
+    box-shadow: var(--header-shadow);
+    font-size: 1.2rem;
+    z-index: 1;
+}
+
+.item {
+    margin: 0 1em;
+    position: relative;
+    height: 70px;
+    max-height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Header Logo */
+.header__logo {
+    min-width: 15vw;
+}
+
+.header__logo .logo {
+    width: 70px;
+    max-width: 70px;
+}
+
+.header__logo img {
+    width: 38.4px;
+}
+
+/* Header navbar */
+.header__navbar {
+    margin: 0 auto;
+    font-family: var(--font-head);
+    font-weight: 400;
+}
+
+.header__navbar .item-row {
+    flex-direction: row;
+    transition: color .3s;
+}
+
+.header__navbar .item-row:hover {
+    color: var(--gray6);
+}
+
+.header__navbar a {
+    color: var(--gray4);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header__navbar i {
+    margin-right: .3em;
+    width: 1.25em;
+    height: 1.25em;
+}
+
+/* Header Buttons */
+.header-buttons {
+    min-width: 15vw;
+}
+
+.header-buttons a {
+    text-decoration: none;
+}
+
+.header-buttons .item-label {
+    position: absolute;
+    opacity: .8;
+    transform: scale(0) translateX(0);
+    transition: transform .2s ease;
+}
+
+.header-buttons .item:hover .item-label {
+    transform: scale(1) translateY(40px);
+}
+
+.header-buttons__search-btn,
+.header-buttons__pro-mode,
+.header-buttons__theme-mode {
+    width: 67.2px;
+}
+
+.header-buttons i {
+    font-size: 28.8px;
+    color: var(--gray3);
+}
+
+.header-buttons i:hover {
+    color: var(--gray6);
+}
+
+.header-buttons .tag {
+    margin: .25em .1em;
+    padding: .2em .5em .3em;
+    border-radius: 2px;
+    font-size: .9em;
+    letter-spacing: 1.2px; 
+}
+
+/* Search Button */
+.header-buttons .tag-blue {
+    background: var(--blue);
+    color: var(--white);
+}
+
+/* Pro Button */
+.header-buttons .tag-green {
+    background: var(--green);
+    color: var(--white);
+}
+
+/* Login button */
+.header-buttons__login {
+    width: 122.7px;
+}
+
+.header-buttons .item-right {
+    margin-right: 5vw;
+}
+
+.header-buttons .tag-purple {
+    background: var(--purple);
+    color: var(--white);
+}

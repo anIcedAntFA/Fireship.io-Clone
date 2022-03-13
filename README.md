@@ -12,7 +12,7 @@
 
 #### Courses
 
-#### Comment
+#### Feedbacks
 
 #### Suggestions
 
