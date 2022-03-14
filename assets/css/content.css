@@ -53,30 +53,32 @@
 .btn {
     margin: .25em, .25em, .25em, 0;
     padding: 1em 2em;
+    display: inline-flex;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: .625em;
-    color: var(--gray4);
-    border-radius: 3px;
-    display: inline-flex;
-    align-items: center;
     justify-content: center;
-    font-weight: 700;
-    vertical-align: bottom;
+    align-items: center;
+    font-size: .625em;
+    border: 2px solid transparent;
+    border-radius: 3px;
     font-family: var(--font-body);
+    font-weight: 700;
+    color: var(--gray4);
+    vertical-align: bottom;
+    cursor: pointer;
 }
 
 .btn:hover {
     transform: translateY(-2px);
 }
 
-.btn-orange {
+.btn-orange-outline {
     background: var(--gray1);
     border: 2px solid var(--orange);
     transition: background .4s ease;
 }
 
-.btn-orange:hover {
+.btn-orange-outline:hover {
     background: var(--orange);
     color: var(--white);
     box-shadow: var(--card-shadow);
@@ -84,13 +86,13 @@
 
 }
 
-.btn-green {
+.btn-green-outline {
     background: var(--gray1);
     border: 2px solid var(--green);
     transition: background .4s ease;
 }
 
-.btn-green:hover {
+.btn-green-outline:hover {
     background: var(--green);
     color: var(--white);
     box-shadow: var(--card-shadow);
@@ -112,14 +114,134 @@
 }
 
 /* Courses */
-.content-heading {
+.home-heading {
     font-size: 1.6em;
 }
 
-.content-sub-heading {
+.home-sub-heading {
     font-size: .8em;
     color: var(--text-color);
     font-weight: 400;
     font-family: var(--font-code);
     text-transform: uppercase;
+}
+
+.courses__content a {
+    text-decoration: none;
+}
+
+.courses__content img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-block {
+    margin: 2em 0;
+    display: block;
+    width: 100%;
+}
+
+.btn-green {
+    background: var(--green);
+    color: var(--white);
+}
+
+.btn-lg {
+    padding: 1.25em 2.5em;
+    font-size: 1em;
+}
+
+/* Feedbacks */
+.tweet-grid {
+    margin: 0 auto 48px;
+    padding-bottom: 24px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 32px;
+}
+
+.tweet-card {
+    position: relative;
+    margin-bottom: 2rem;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--card-bg);
+    line-height: 1,5;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
+}
+
+.tweet-card .tweet-icon {
+    position: absolute;
+    right: 24px;
+    color: #e3e9f0;
+}
+
+.tweet-card .tweet-icon i {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: var(--h-color);
+}
+
+.tweet-card .tweet-user {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.tweet-card .tweet-user img {
+    margin-right: 12px;
+    width: 48px;
+    max-width: 100%;
+    height: 48px;
+    border-radius: 100%; /*Circle*/
+}
+
+.tweet-card .tweet-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet-card .tweet-name {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.tweet-card .tweet-content {
+    font-weight: 300;
+}
+
+.h2l2 {
+    padding: 0;
+    background-color: #4e5556;
+    color: #cbff8f;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+/* Suggestions */
+.card-lesson {
+    max-width: 650px;
+    font-weight: 300;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content a {
+    text-decoration: none;
+}
+
+.lesson-type {
+    position: absolute;
+    padding: .5em;
+    top: 0;
+    right: 0;
+}
+
+.lesson-type i {
+    color: var(--red);
 }
