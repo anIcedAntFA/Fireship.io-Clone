@@ -1,0 +1,44 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: none;
+
+    background: var(--overlay-bg);
+
+    transform: scale(0);
+    transition: transform .2s ease-out;
+}
+
+.modal-show {
+    transform: scale(1);
+    transition: transform .2s ease-in;
+}
+
+.modal-container {
+    position: relative;
+
+    padding: var(--header-width);
+    padding-top: 5em;
+    width: auto;
+    height: 100%;
+}
+
+.modal-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--h-color);
+    font-size: 5vw;
+    border-bottom: 5px solid;
+    font-family: var(--body-font);
+}
+
+.modal-close {
+    float: right;
+    margin-top: 10px;
+}

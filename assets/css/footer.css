@@ -1,0 +1,41 @@
+footer {
+    margin-top: 120px;
+    padding: 0 1rem 1rem;
+
+    flex-direction: column;
+    text-align: center;
+    
+    font-size: .85em;
+    opacity: .8;
+}
+
+footer a:hover {
+    opacity: .8;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-links a {
+    color: var(--green);
+}
+
+.social-links {
+    padding: 20px 0;
+    font-size: 1.5em;
+}
+
+.mobile-app {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-app a:first-child img {
+    width: 170px;
+}
+
+.mobile-app a:last-child img {
+    width: 210px;
+}

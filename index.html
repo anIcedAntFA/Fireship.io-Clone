@@ -5,13 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Fireship.io Clone</title>
-        <link rel="stylesheet" href="./assets/css/main.css">
-        <link rel="stylesheet" href="./assets/css/header.css">
-        <link rel="stylesheet" href="./assets/css/content.css">
+        <link rel="icon" href="./assets/img/logo/fireship.png" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/style.css">
         <link href="http://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    </head>
+
     <body class="light-theme">
         <!-- Begin: Header -->
         <header class="header font-head">
@@ -19,28 +18,25 @@
             <!-- Header Logo -->
             <div class="header__logo">
                 <a href="#" class="item logo">
-                    <img src="./assets/img/logo/fireship.png" alt="fireship logo">
-                        <title>fireship</title>
+                    <img src="./assets/img/logo/fireship.png" alt="">
                 </a>
             </div>
 
             <!-- Header Navbar -->
-            <div class="header__navbar flex-center">
+            <nav class="header__navbar flex-center">
                 <a href="" class="item item-row">
                     <i class="fa-solid fa-tv"></i>
                     Lessons
                 </a>
-
                 <a href="" class="item item-row">
-                    <i class="fa-solid fa-briefcase"></i>    
+                    <i class="fa-solid fa-briefcase"></i>   
                     Courses
                 </a>
-
                 <a href="" class="item item-row">
-                    <i class="fa-solid fa-tags"></i>    
+                    <i class="fa-solid fa-tags"></i>   
                     Tags
                 </a>
-            </div>
+            </nav>
 
             <!-- Header Buttons -->
             <div class="header-buttons flex-center">
@@ -89,7 +85,7 @@
             <!-- Intro -->
             <div class="intro">
 
-                <!-- Intro text -->
+                <!-- Intro content -->
                 <div class="intro__content">
                     <h1>
                         Build and ship your app
@@ -113,251 +109,254 @@
                         allowfullscreen="" width="100%" height="auto" frameborder="0"></iframe>
                 </div>
             </div>
-
             <hr>
 
-            <!-- Courses -->
-            <div class="courses">
+            <!-- New courses -->
+            <h2 class="text-center home-heading">New Courses</h2>
+            <h4 class="text-center home-sub-heading">Brand New Courses And Update Every Months</h4>
+            <div class="courses__content row row-max-2">
+                <a href="" class="card card-course">
+                    <div class="card-content">
+                        <div class="text-center">
+                            <img src="./assets/img/courses/home_course_1.jpg" alt="">
+                        </div>
+                        <h3>React Firebase Full Course</h3>
+                        Build a fullstack serve-rendered webapp with react, next.js and firebase
+                        <button class="btn btn-block btn-green">Start</button>
+                    </div>
+                </a>
+                <a href="" class="card card-course">
+                    <div class="card-content">
+                        <div class="text-center">
+                            <img src="./assets/img/courses/home_course_2.jpg" alt="">
+                        </div>
+                        <h3>Flutter Firebase App From Scratch</h3>
+                        Build a complex production-ready app from scratch with Flutter & Firebase
+                        <button class="btn btn-block btn-green">Start</button>
+                    </div>
+                </a>
+            </div>
+            <hr>
 
-                <!-- New courses -->
-                <h2 class="text-center home-heading">New Courses</h2>
-                <h4 class="text-center home-sub-heading">Brand New Courses And Update Every Months</h4>
-                
-                <div class="courses__content row row-max-2">
-                    <a href="" class="card card-course">
-                        <div class="card-content">
-                            <div class="text-center">
-                                <img src="./assets/img/courses/home_course_1.jpg" alt="">
-                            </div>
-                            <h3>React Firebase Full Course</h3>
-                            Build a fullstack serve-rendered webapp with react, next.js and firebase
-                            <button class="btn btn-block btn-green">Start</button>
+            <!-- Learn by doing -->
+            <h2 class="text-center content-heading">Learn By Doing</h2>
+            <h4 class="text-center home-sub-heading">Fast, efficient, project-based video courses</h4>
+            <div class="courses__content row row-max-2">
+                <a href="" class="card card-course">
+                    <div class="card-content">
+                        <div class="text-center">
+                            <img src="./assets/img/courses/home_course_3.jpg" alt="">
                         </div>
-                    </a>
-                    <a href="" class="card card-course">
-                        <div class="card-content">
-                            <div class="text-center">
-                                <img src="./assets/img/courses/home_course_2.jpg" alt="">
-                            </div>
-                            <h3>Flutter Firebase App From Scratch</h3>
-                            Build a complex production-ready app from scratch with Flutter & Firebase
-                            <button class="btn btn-block btn-green">Start</button>
+                        <h3>Striped Payments Master Course</h3>
+                        Build a fullstack payment solution with Node.js and React
+                        <button class="btn btn-block btn-green">Start</button>
+                    </div>
+                </a>
+                <a href="" class="card card-course">
+                    <div class="card-content">
+                        <div class="text-center">
+                            <img src="./assets/img/courses/home_course_4.jpg" alt="">
                         </div>
-                    </a>
-                </div>
-                <hr>
+                        <h3>Angular 12 Firebase Project Course</h3>
+                        Build a high-performance progressive web application (PWA) with Angular and Firebase
+                        <button class="btn btn-block btn-green">Start</button>
+                    </div>
+                </a>
+            </div>
+            <hr>
 
-                <!-- Learn by doing -->
-                <h2 class="text-center content-heading">Learn By Doing</h2>
-                <h4 class="text-center content-sub-heading">Fast, efficient, project-based video courses</h4>
-                
-                <div class="courses__content row row-max-2">
-                    <a href="" class="card card-course">
-                        <div class="card-content">
-                            <div class="text-center">
-                                <img src="./assets/img/courses/home_course_3.jpg" alt="">
-                            </div>
-                            <h3>Striped Payments Master Course</h3>
-                            Build a fullstack payment solution with Node.js and React
-                            <button class="btn btn-block btn-green">Start</button>
+            <!-- Modern fullstack -->
+            <h2 class="text-center content-heading">Modern Fullstack</h2>
+            <h4 class="text-center home-sub-heading">Develop Faster With Scalable Cloud Infrastructure</h4>
+            <div class="courses__content row row-max-2">
+                <a href="" class="card card-course">
+                    <div class="card-content">
+                        <div class="text-center">
+                            <img src="./assets/img/courses/home_course_5.jpg" alt="">
                         </div>
-                    </a>
-                    <a href="" class="card card-course">
-                        <div class="card-content">
-                            <div class="text-center">
-                                <img src="./assets/img/courses/home_course_4.jpg" alt="">
-                            </div>
-                            <h3>Angular 12 Firebase Project Course</h3>
-                            Build a high-performance progressive web application (PWA) with Angular and Firebase
-                            <button class="btn btn-block btn-green">Start</button>
+                        <h3>Firestore Data Modeling Course</h3>
+                        Learn how to model data and optimize queries with Cloud Firestore
+                    </div>
+                </a>
+                <a href="" class="card card-course">
+                    <div class="card-content">
+                        <div class="text-center">
+                            <img src="./assets/img/courses/home_course_6.jpg" alt="">
                         </div>
-                    </a>
-                </div>
-                <hr>
+                        <h3>Cloud Functions Master Course</h3>
+                        Master the fundamentals of serverless with Firebase Cloud Functions by building seven different microservices from scratch
+                    </div>
+                </a>
+            </div>
+            <hr>
 
-                <!-- Modern fullstack -->
-                <h2 class="text-center content-heading">Modern Fullstack</h2>
-                <h4 class="text-center content-sub-heading">Develop Faster With Scalable Cloud Infrastructure</h4>
-                
-                <div class="courses__content row row-max-2">
-                    <a href="" class="card card-course">
-                        <div class="card-content">
-                            <div class="text-center">
-                                <img src="./assets/img/courses/home_course_5.jpg" alt="">
-                            </div>
-                            <h3>Firestore Data Modeling Course</h3>
-                            Learn how to model data and optimize queries with Cloud Firestore
+            <!-- New to development -->
+            <h2 class="text-center content-heading">New To Development</h2>
+            <h4 class="text-center home-sub-heading">Master The Basic First</h4>
+            <div class="courses__content row row-max-2">
+                <a href="" class="card card-course">
+                    <div class="card-content">
+                        <div class="text-center">
+                            <img src="./assets/img/courses/home_course_7.jpg" alt="">
                         </div>
-                    </a>
-                    <a href="" class="card card-course">
-                        <div class="card-content">
-                            <div class="text-center">
-                                <img src="./assets/img/courses/home_course_6.jpg" alt="">
-                            </div>
-                            <h3>Cloud Functions Master Course</h3>
-                            Master the fundamentals of serverless with Firebase Cloud Functions by building seven different microservices from scratch
+                        <h3>VS Code Magic Tricks</h3>
+                        Write better code faster by leveling up your VS Code editing skills
+                    </div>
+                </a>
+                <a href="" class="card card-course">
+                    <div class="card-content">
+                        <div class="text-center">
+                            <img src="./assets/img/courses/home_course_8.jpg" alt="">
                         </div>
-                    </a>
-                </div>
-                <hr>
-
-                <!-- New to development -->
-                <h2 class="text-center content-heading">New To Development</h2>
-                <h4 class="text-center content-sub-heading">Master The Basic First</h4>
-
-                <div class="courses__content row row-max-2">
-                    <a href="" class="card card-course">
-                        <div class="card-content">
-                            <div class="text-center">
-                                <img src="./assets/img/courses/home_course_7.jpg" alt="">
-                            </div>
-                            <h3>VS Code Magic Tricks</h3>
-                            Write better code faster by leveling up your VS Code editing skills
-                        </div>
-                    </a>
-                    <a href="" class="card card-course">
-                        <div class="card-content">
-                            <div class="text-center">
-                                <img src="./assets/img/courses/home_course_8.jpg" alt="">
-                            </div>
-                            <h3>Firebase - The Basics</h3>
-                            Learn the fundamental concepts needed to start building serious apps with Firebase
-                        </div>
-                    </a>
-                </div>
-
-                <!-- All courses button -->
-                <div class="row-home text-center">
-                    <a href="" class="btn btn-green btn-lg text-center">
-                        All pro courses
-                    </a>
-                </div>
+                        <h3>Firebase - The Basics</h3>
+                        Learn the fundamental concepts needed to start building serious apps with Firebase
+                    </div>
+                </a>
             </div>
 
+            <!-- All courses button -->
+            <div class="row-home text-center">
+                <a href="" class="btn btn-green btn-lg text-center">
+                    All pro courses
+                </a>
+            </div>
+            <hr>
+
             <!-- Feedbacks -->
-            <div class="feedbacks">
-                <h2 class="text-center home-heading">💖 Loved by Developers since 2017</h2>
-                <hr>
-                <h4 class="text-center home-sub-heading">"I have a job thanks to you"</h4>
-                
-                <div class="text-center">
-                    <img src="./assets/img/feedbacks/feedback_1.png" alt="">
+            <h2 class="text-center home-heading">💖 Loved by Developers since 2017</h2>
+            <hr>
+            <h4 class="text-center home-sub-heading">"I have a job thanks to you"</h4>
+            <div class="text-center">
+                <img src="./assets/img/feedbacks/feedback_1.png" alt="">
+            </div>
+
+            <!-- Twitter feedbacks -->
+            <div class="tweet-grid">
+                <div>
+                    <div class="tweet-card">
+                        <div class="tweet-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                            </svg>
+                        </div>
+                        <div class="tweet-user">
+                            <img src="./assets/img/feedbacks/feedback_2.jpg" alt="">
+                            <div class="tweet-details">
+                                <div class="tweet-name">David East</div>
+                                <div class="tweet-handle">@_davideast</div>
+                            </div>
+                        </div>
+                        <div class="tweet-content">
+                            The most concise and frequent YouTube channel for Firebase and general Web development videos. Subscribe if you haven't,
+                            <span class="h2l2">you won't be disappointed 🔥</span>
+                        </div>
+                    </div>
+                    <div class="tweet-card">
+                        <div class="tweet-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                            </svg>
+                        </div>
+                        <div class="tweet-user">
+                            <img src="./assets/img/feedbacks/feedback_3.jpg" alt="">
+                            <div class="tweet-details">
+                                <div class="tweet-name">Adam Wathan</div>
+                                <div class="tweet-handle">@adamwathan</div>
+                            </div>
+                        </div>
+                        <div class="tweet-content">
+                            Wow, what an awesome @tailwindcss intro video by @fireship_dev 🤩
+                            <br>
+                            <br>
+                            Covers 
+                            <span class="h2l2">way more than I ever imagined</span>
+                            you could cover in 100 seconds 🤯 
+                        </div>
+                    </div>
                 </div>
-                <div class="tweet-grid">
-                    <div>
-                        <div class="tweet-card">
-                            <div class="tweet-icon">
-                                <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="tweet-user">
-                                <img src="./assets/img/feedbacks/feedback_2.jpg" alt="">
-                                <div class="tweet-details">
-                                    <div class="tweet-name">David East</div>
-                                    <div class="tweet-handle">@_davideast</div>
-                                </div>
-                            </div>
-                            <div class="tweet-content">
-                                The most concise and frequent YouTube channel for Firebase and general Web development videos. Subscribe if you haven't,
-                                <span class="h2l2">you won't be disappointed 🔥</span>
+    
+                <div>
+                    <div class="tweet-card">
+                        <div class="tweet-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                            </svg>
+                        </div>
+                        <div class="tweet-user">
+                            <img src="./assets/img/feedbacks/feedback_4.jpg" alt="">
+                            <div class="tweet-details">
+                                <div class="tweet-name">Ema</div>
+                                <div class="tweet-handle">@emabytes</div>
                             </div>
                         </div>
-                        <div class="tweet-card">
-                            <div class="tweet-icon">
-                                <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="tweet-user">
-                                <img src="./assets/img/feedbacks/feedback_3.jpg" alt="">
-                                <div class="tweet-details">
-                                    <div class="tweet-name">Adam Wathan</div>
-                                    <div class="tweet-handle">@adamwathan</div>
-                                </div>
-                            </div>
-                            <div class="tweet-content">
-                                Wow, what an awesome @tailwindcss intro video by @fireship_dev 🤩
-                                <br>
-                                <br>
-                                Covers 
-                                <span class="h2l2">way more than I ever imagined</span>
-                                you could cover in 100 seconds 🤯 
-                            </div>
+                        <div class="tweet-content">
+                            I know you probably have a list, but if you had to pick
+                            <span class="h2l2">just one favourite</span>
+                            coding related YouTube channel, what would it be? 
+                            <br>
+                            <br>
+                            🍒🤓 
+                            <br>
+                            <br>
+                            <span class="h2l2">I pick brilliant @fireship_dev</span>
                         </div>
                     </div>
-
-                    <div>
-                        <div class="tweet-card">
-                            <div class="tweet-icon">
-                                <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="tweet-user">
-                                <img src="./assets/img/feedbacks/feedback_4.jpg" alt="">
-                                <div class="tweet-details">
-                                    <div class="tweet-name">Ema</div>
-                                    <div class="tweet-handle">@emabytes</div>
-                                </div>
-                            </div>
-                            <div class="tweet-content">
-                                I know you probably have a list, but if you had to pick
-                                <span class="h2l2">just one favourite</span>
-                                coding related YouTube channel, what would it be? 
-                                <br>
-                                <br>
-                                🍒🤓 
-                                <br>
-                                <br>
-                                <span class="h2l2">I pick brilliant @fireship_dev</span>
+                    <div class="tweet-card">
+                        <div class="tweet-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                            </svg>
+                        </div>
+                        <div class="tweet-user">
+                            <img src="./assets/img/feedbacks/feedback_5.jpg" alt="">
+                            <div class="tweet-details">
+                                <div class="tweet-name">Samantha Ming</div>
+                                <div class="tweet-handle">@samantha_ming</div>
                             </div>
                         </div>
-                        <div class="tweet-card">
-                            <div class="tweet-icon">
-                                <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="tweet-user">
-                                <img src="./assets/img/feedbacks/feedback_5.jpg" alt="">
-                                <div class="tweet-details">
-                                    <div class="tweet-name">Samantha Ming</div>
-                                    <div class="tweet-handle">@samantha_ming</div>
-                                </div>
-                            </div>
-                            <div class="tweet-content">
-                                @fireship_dev is a beast! His 100 seconds series is 🔥 
-                            </div>
+                        <div class="tweet-content">
+                            @fireship_dev is a beast! His 100 seconds series is 🔥 
                         </div>
                     </div>
-
-                    <div>
-                        <div class="tweet-card">
-                            <div class="tweet-icon">
-                                <i class="fa-brands fa-twitter"></i>
-                            </div>
-                            <div class="tweet-user">
-                                <img src="./assets/img/feedbacks/feedback_6.jpg" alt="">
-                                <div class="tweet-details">
-                                    <div class="tweet-name">Ugo</div>
-                                    <div class="tweet-handle">@Nelsonweze</div>
-                                </div>
-                            </div>
-                            <div class="tweet-content">
-                                If I am a developer today, it's because of @Jeffdelaney23's tutorial videos on his channel @fireship_dev. Found him in 2017 for Angular+Firebase. When I moved to #Flutter, he still was there. #ML and
-                                <span class="h2l2">I'm still watching his videos</span>
-                                Thanks a lot Jeff! 
+                </div>
+    
+                <div>
+                    <div class="tweet-card">
+                        <div class="tweet-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                            </svg>
+                        </div>
+                        <div class="tweet-user">
+                            <img src="./assets/img/feedbacks/feedback_6.jpg" alt="">
+                            <div class="tweet-details">
+                                <div class="tweet-name">Ugo</div>
+                                <div class="tweet-handle">@Nelsonweze</div>
                             </div>
                         </div>
-                        <div class="tweet-card">
-                            <div class="tweet-icon">
-                                <i class="fa-brands fa-twitter"></i>
+                        <div class="tweet-content">
+                            If I am a developer today, it's because of @Jeffdelaney23's tutorial videos on his channel @fireship_dev. Found him in 2017 for Angular+Firebase. When I moved to #Flutter, he still was there. #ML and
+                            <span class="h2l2">I'm still watching his videos</span>
+                            Thanks a lot Jeff! 
+                        </div>
+                    </div>
+                    <div class="tweet-card">
+                        <div class="tweet-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                            </svg>
+                        </div>
+                        <div class="tweet-user">
+                            <img src="./assets/img/feedbacks/feedback_7.jpg" alt="">
+                            <div class="tweet-details">
+                                <div class="tweet-name">Jonathan Marbutt</div>
+                                <div class="tweet-handle">@jmarbutt</div>
                             </div>
-                            <div class="tweet-user">
-                                <img src="./assets/img/feedbacks/feedback_7.jpg" alt="">
-                                <div class="tweet-details">
-                                    <div class="tweet-name">Jonathan Marbutt</div>
-                                    <div class="tweet-handle">@jmarbutt</div>
-                                </div>
-                            </div>
-                            <div class="tweet-content">
-                                Over the years I have always used so many OSS but never been able to jump into communities (not for trying) or
-                                <span class="h2l2">never felt as welcomed </span>
-                                as I have in communities of @nhostio @HasuraHQ @remix_run @fireship_dev. They all should be very proud of what they have built. 
-                            </div>
+                        </div>
+                        <div class="tweet-content">
+                            Over the years I have always used so many OSS but never been able to jump into communities (not for trying) or
+                            <span class="h2l2">never felt as welcomed </span>
+                            as I have in communities of @nhostio @HasuraHQ @remix_run @fireship_dev. They all should be very proud of what they have built. 
                         </div>
                     </div>
                 </div>
@@ -365,191 +364,195 @@
             <hr>
 
             <!-- Suggestions -->
-            <div class="suggestions">
-                <h2 class="text-center home-heading">
-                    <span class="text-italic text-gradient">Extraordinary </span>
-                    Code Tutorials
-                </h2>
-                <h4 class="text-center home-sub-heading">Fast-paced software dev content you'll actually enjoy watching</h4>
+            <h2 class="text-center home-heading">
+                <span class="text-italic text-gradient">Extraordinary </span>
+                Code Tutorials
+            </h2>
+            <h4 class="text-center home-sub-heading">Fast-paced software dev content you'll actually enjoy watching</h4>
 
-                <div class="row-max-1">
-                    <div class="card card-lesson">
+            <div class="row-max-1">
+                <div class="card card-lesson">
+                    <a href="" class="">
+                        <img src="./assets/img/suggestions/suggestion_1.webp" alt="">
+                    </a>
+                    <div class="card-content">
                         <a href="" class="">
-                            <img src="./assets/img/suggestions/suggestion_1.webp" alt="">
+                            <h3>Code This, Not That - Python Edition</h3>
                         </a>
-                        <div class="card-content">
-                            <a href="" class="">
-                                <h3>Code This, Not That - Python Edition</h3>
-                            </a>
-                            <p>10 Tips to make your code more Pythonic.</p>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-py">#python</span>
-                            </a>
-                        </div>
+                        <p>10 Tips to make your code more Pythonic.</p>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-py">#python</span>
+                        </a>
                     </div>
-                </div>
-
-                <div class="row-max-3">
-                    <div class="card card-lesson">
-                        <div class="card-content">
-                            <a href="" class="">
-                                <h3>Code This, Not That - Python Edition</h3>
-                            </a>
-                            <p>10 Tips to make your code more Pythonic.</p>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-py">#python</span>
-                            </a>
-                        </div>
-                        <span class="lesson-type">
-                            <i class="fa-brands fa-youtube"></i>
-                        </span>
-                    </div>
-
-                    <div class="card card-lesson">
-                        <div class="card-content">
-                            <a href="" class="">
-                                <h3>Tweeter Bot Tutorial</h3>
-                            </a>
-                            <p>Build a Twitter Bot from scratch using Oauth 2.0 to post tweets on behalf of a user.</p>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-firebase">#firebase</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-cloud-func">#cloud-functions</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-js">#javascript</span>
-                            </a>
-                        </div>
-                        <span class="lesson-type">
-                            <i class="fa-brands fa-youtube"></i>
-                        </span>
-                    </div>
-
-                    <div class="card card-lesson">
-                        <div class="card-content">
-                            <a href="" class="">
-                                <h3>Web 3 NFT Tutorial</h3>
-                            </a>
-                            <p>Mint an NFT with Hardhat and Solidity, then interact with the smart contract using Ethers.js and React.</p>
-                            <a href="" class="">
-                                <span class="tag tag-sm">#web3</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm">#solidity</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-react">#react</span>
-                            </a>
-                        </div>
-                        <span class="lesson-type">
-                            <i class="fa-brands fa-youtube"></i>
-                        </span>
-                    </div>
-
-                    <div class="card card-lesson">
-                        <div class="card-content">
-                            <a href="" class="">
-                                <h3>Fulltext Search with Redis and Next.js</h3>
-                            </a>
-                            <p>Build an app capable of fulltext search using Redis and Next.js</p>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-redis">#redis</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-nextjs">#nextjs</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-react">#react</span>
-                            </a>
-                        </div>
-                        <span class="lesson-type">
-                            <i class="fa-brands fa-youtube"></i>
-                        </span>
-                    </div>
-
-                    <div class="card card-lesson">
-                        <div class="card-content">
-                            <a href="" class="">
-                                <h3>Using Riverpod with Firebase in Flutter</h3>
-                            </a>
-                            <p>Use Riverpod to manage Firebase auth state and relational realtime data in Firestore.</p>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-pro">#pro</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-flutter">#flutter</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-firebase">#firebase</span>
-                            </a>
-                        </div>
-                        <span class="lesson-type">
-                            <i class="fa-brands fa-youtube"></i>
-                        </span>
-                    </div>
-
-                    <div class="card card-lesson">
-                        <div class="card-content">
-                            <a href="" class="">
-                                <h3>Cryptography Concepts for Node.js Developers</h3>
-                            </a>
-                            <p>Learn 7 essential cryptography concepts in and implement them with Node.js crypto.</p>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-node">#node</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm tag-js">#javascript</span>
-                            </a>
-                            <a href="" class="">
-                                <span class="tag tag-sm">#crypto</span>
-                            </a>
-                        </div>
-                        <span class="lesson-type">
-                            <i class="fa-brands fa-youtube"></i>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="suggestion__options text-center">
-                    <h2 class="home-heading">Multiple Learning Formats</h2>
-                    <h4 class="home-sub-heading">Content for complete beginners and experienced engineers</h4>
-                    <a class="btn btn-purple-outline btn-lg" href="">
-                        Full Courses
-                    </a>
-                    <a class="btn btn-green-outline btn-lg" href="">
-                        Single Lessons
-                    </a>
-                    <a class="btn btn-blue-outline btn-lg" href="">
-                        Quick Snippets
-                    </a>
                 </div>
             </div>
-            <hr>
 
-            <!-- About -->
-            <div class="about">
-                <div class="row row-home">
-                    <section class="flex-center">
-                        <a href="">
-                            <img src="https://fireship.io/img/pages/jeffdelaney-gde-2020.webp" alt="">
+            <div class="row-max-3">
+
+                <!-- Card 1 -->
+                <div class="card card-lesson">
+                    <div class="card-content">
+                        <a href="" class="">
+                            <h3>Code This, Not That - Python Edition</h3>
                         </a>
-                    </section>
-                    <section>
-                        <h2>Your Host</h2>
-                        <p>
-                            Hi, I'm
-                            <code class="bg-gradient">Jeff Delaney</code>
-                            and the only thing I know is that I know nothing. I've been building software for over 10 years and started this project with a simple mission... 👉 create practical content that
-                            <strong>increases developer happiness and productivity</strong>
-                            🚀
-                        </p>
-                        <p>
-                            📜
-                            <a href="">Fireship Manifesto</a>
-                        </p>
-                    </section>
+                        <p>10 Tips to make your code more Pythonic.</p>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-py">#python</span>
+                        </a>
+                    </div>
+                    <span class="lesson-type">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
                 </div>
+
+                <!-- Card 2 -->
+                <div class="card card-lesson">
+                    <div class="card-content">
+                        <a href="" class="">
+                            <h3>Tweeter Bot Tutorial</h3>
+                        </a>
+                        <p>Build a Twitter Bot from scratch using Oauth 2.0 to post tweets on behalf of a user.</p>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-firebase">#firebase</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-cloud-func">#cloud-functions</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-js">#javascript</span>
+                        </a>
+                    </div>
+                    <span class="lesson-type">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="card card-lesson">
+                    <div class="card-content">
+                        <a href="" class="">
+                            <h3>Web 3 NFT Tutorial</h3>
+                        </a>
+                        <p>Mint an NFT with Hardhat and Solidity, then interact with the smart contract using Ethers.js and React.</p>
+                        <a href="" class="">
+                            <span class="tag tag-sm">#web3</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm">#solidity</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-react">#react</span>
+                        </a>
+                    </div>
+                    <span class="lesson-type">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="card card-lesson">
+                    <div class="card-content">
+                        <a href="" class="">
+                            <h3>Fulltext Search with Redis and Next.js</h3>
+                        </a>
+                        <p>Build an app capable of fulltext search using Redis and Next.js</p>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-redis">#redis</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-nextjs">#nextjs</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-react">#react</span>
+                        </a>
+                    </div>
+                    <span class="lesson-type">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="card card-lesson">
+                    <div class="card-content">
+                        <a href="" class="">
+                            <h3>Using Riverpod with Firebase in Flutter</h3>
+                        </a>
+                        <p>Use Riverpod to manage Firebase auth state and relational realtime data in Firestore.</p>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-pro">#pro</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-flutter">#flutter</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-firebase">#firebase</span>
+                        </a>
+                    </div>
+                    <span class="lesson-type">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="card card-lesson">
+                    <div class="card-content">
+                        <a href="" class="">
+                            <h3>Cryptography Concepts for Node.js Developers</h3>
+                        </a>
+                        <p>Learn 7 essential cryptography concepts in and implement them with Node.js crypto.</p>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-node">#node</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm tag-js">#javascript</span>
+                        </a>
+                        <a href="" class="">
+                            <span class="tag tag-sm">#crypto</span>
+                        </a>
+                    </div>
+                    <span class="lesson-type">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Suggestion options -->
+            <div class="suggestion__options text-center">
+                <h2 class="home-heading">Multiple Learning Formats</h2>
+                <h4 class="home-sub-heading">Content for complete beginners and experienced engineers</h4>
+                <a class="btn btn-purple-outline btn-lg" href="">
+                    Full Courses
+                </a>
+                <a class="btn btn-green-outline btn-lg" href="">
+                    Single Lessons
+                </a>
+                <a class="btn btn-blue-outline btn-lg" href="">
+                    Quick Snippets
+                </a>
+            </div>
+            <hr>
+            
+            <!-- About -->
+            <div class="about row row-home">
+                <section class="flex-center">
+                    <a href="">
+                        <img src="https://fireship.io/img/pages/jeffdelaney-gde-2020.webp" alt="">
+                    </a>
+                </section>
+                <section>
+                    <h2>🎙️ Your Host</h2>
+                    <p>
+                        Hi, I'm
+                        <code class="bg-gradient">Jeff Delaney</code>
+                        and the only thing I know is that I know nothing. I've been building software for over 10 years and started this project with a simple mission... 👉 create practical content that
+                        <strong>increases developer happiness and productivity</strong>
+                        🚀
+                    </p>
+                    <p>
+                        📜
+                        <a href="">Fireship Manifesto</a>
+                    </p>
+                </section>
             </div>
             <hr>
         </div>
@@ -559,7 +562,7 @@
         <footer class="flex-center">
             <div class="github-link">
                 Find an issue with this page? 
-                <a href="" class="">Fix it on GitHub</a>
+                <a href="https://github.com/fireship-io/fireship.io/blob/master/hugo/content/_index.md" class="">Fix it on GitHub</a>
             </div>
 
             <div class="copyright">
@@ -567,16 +570,25 @@
                 Copyright © 2022 Fireship LLC
                 <br>
                 Created with
-                <i class="fa-brands fa-angular"></i>
                 <i>
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="17" height="17" viewBox="0 0 48 48" style=" fill:#000000;"><path fill="#ff8f00" d="M8,37L23.234,8.436c0.321-0.602,1.189-0.591,1.494,0.02L30,19L8,37z"></path><path fill="#ffa000" d="M8,36.992l5.546-34.199c0.145-0.895,1.347-1.089,1.767-0.285L26,22.992L8,36.992z"></path><path fill="#ff6f00" d="M8.008 36.986L8.208 36.829 25.737 22.488 20.793 13.012z"></path><path fill="#ffc400" d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path fill="#dd0031" d="M185.7 268.1h76.2l-38.1-91.6-38.1 91.6zM223.8 32L16 106.4l31.8 275.7 176 97.9 176-97.9 31.8-275.7zM354 373.8h-48.6l-26.2-65.4H168.6l-26.2 65.4H93.7L223.8 81.5z"/>
+                    </svg>
+                </i>
+                <i>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="17" height="17" viewBox="0 0 48 48" style=" fill:#000000;">
+                        <path fill="#ff8f00" d="M8,37L23.234,8.436c0.321-0.602,1.189-0.591,1.494,0.02L30,19L8,37z"></path>
+                        <path fill="#ffa000" d="M8,36.992l5.546-34.199c0.145-0.895,1.347-1.089,1.767-0.285L26,22.992L8,36.992z"></path>
+                        <path fill="#ff6f00" d="M8.008 36.986L8.208 36.829 25.737 22.488 20.793 13.012z"></path>
+                        <path fill="#ffc400" d="M8,37l26.666-25.713c0.559-0.539,1.492-0.221,1.606,0.547L40,37l-15,8.743 c-0.609,0.342-1.352,0.342-1.961,0L8,37z"></path>
+                    </svg>
                 </i>
                 by
-                <a href="">
+                <a href="https://developers.google.com/community/experts/directory/profile/profile-jeff-delaney">
                     Jeff Delaney
-                    <i></i>
                 </a>
                 <hr>
+
                 <div class="footer-links">
                     <a href="">Contributors</a>
                     <a href="">Jobs</a>
@@ -584,22 +596,71 @@
                     <a href="">Termss</a>
                 </div>
                 <hr>
+                
                 <div class="social-links">
-                    <a href=""><i class="fa-brands fa-youtube utube-icon"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter twitter-icon"></i></a>
-                    <a href=""><i class="fa-brands fa-github gitHub-icon"></i></a>
-                    <a href=""><i class="fa-brands fa-slack slack-icon"></i></a>
+                    <a href="https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA">
+                        <i class="utube-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path fill="#ff0a00" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/>
+                            </svg>
+                        </i>
+                    </a>
+                    <a href="https://twitter.com/fireship_dev">
+                        <i class="twitter-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path fill="#1da1f2" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                            </svg>
+                        </i>
+                    </a>
+                    <a href="https://github.com/fireship-io">
+                        <i class="gitHub-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path fill="#333" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                            </svg>
+                        </i>
+                    </a>
+                    <a href="https://fireship.page.link/slack">
+                        <i class="slack-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                <path fill="#ce1f5b" d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
 
             <div class="mobile-app">
-                <a href="">
+                <a href="https://apps.apple.com/us/app/fireship/id1462592372">
                     <img src="./assets/img/footer/footer_1.svg" alt="">
                 </a>
-                <a href="" class="">
+                <a href="https://play.google.com/store/apps/details?id=io.fireship.quizapp&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" class="">
                     <img src="./assets/img/footer/footer_2.png" alt="">
                 </a>
             </div>
         </footer>
+
+        <!-- Advertisement -->
+        <div id="ads">
+            <span>
+                <span class="ads-content">
+                    <a class="ads-img" href="">
+                        <img src="./assets/img/ads/ads_1.png" alt="">
+                    </a>
+                    <a class="ads-text" href="">
+                        Limited time offer: Get 10 free Adobe Stock images.
+                    </a>
+                </span>
+                <a class="ads-powerby" href="">ads via Carbon</a>
+            </span>
+        </div>
+
+        <!-- Search modal -->
+        <div class="modal-overlay modal-show">
+            <div class="modal-container">
+                <input class="modal-input" type="text" placeholder="Explore...">
+                <span class="modal-close btn btn-red">
+                    Close
+                </span>
+            </div>
+        </div>
     </body>
 </html>

@@ -1,0 +1,108 @@
+.btn {
+    margin: .25em, .25em, .25em, 0;
+    padding: 1em 2em;
+    display: inline-flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: .625em;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-family: var(--font-body);
+    font-weight: 700;
+    color: var(--gray4);
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-block {
+    margin: 2em 0;
+    display: block;
+    width: 100%;
+}
+
+.btn-sm {
+    padding: .5em 1em;
+}
+
+.btn-lg {
+    padding: 1.25em 2.5em;
+    font-size: 1em;
+}
+
+.btn-red {
+    background: var(--red);
+    color: var(--white);
+}
+
+.btn-green {
+    background: var(--green);
+    color: var(--white);
+}
+
+.btn-red:hover,
+.btn-green:hover {
+    box-shadow: var(--card-shadow);
+    transform: translateY(-2px);
+    transition: transform .2s ease;
+}
+
+.btn-orange-outline {
+    background: var(--gray1);
+    border: 2px solid var(--orange);
+    transition: background .4s ease;
+}
+
+.btn-orange-outline:hover {
+    background: var(--orange);
+    color: var(--white);
+
+}
+
+.btn-green-outline {
+    background: var(--gray1);
+    border: 2px solid var(--green);
+    transition: background .4s ease;
+}
+
+.btn-green-outline:hover {
+    background: var(--green);
+    color: var(--white);
+}
+
+.btn-purple-outline {
+    background: var(--background);
+    border: 2px solid var(--purple);
+    transition: background .4s ease;
+}
+
+.btn-purple-outline:hover {
+    background: var(--purple);
+    color: #fff;
+}
+
+.btn-blue-outline {
+    background: var(--background);
+    border: 2px solid var(--blue);
+    transition: background .4s ease;
+}
+
+.btn-blue-outline:hover {
+    background: var(--blue);
+    color: #fff;
+}
+
+.btn-orange-outline:hover,
+.btn-green-outline:hover,
+.btn-purple-outline:hover,
+.btn-blue-outline:hover {
+    box-shadow: var(--card-shadow);
+    transition: background .4s ease;
+}
+
+
